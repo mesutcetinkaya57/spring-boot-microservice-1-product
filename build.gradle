@@ -37,8 +37,7 @@ test {
 jar {
 	manifest {
 		attributes(
-				'Main-Class': 'org.springframework.boot.loader.JarLauncher',
-				'Start-Class': 'com.sha.springbootmicroservice1product.SpringBootMicroservice1ProductApplication'
+				'Main-Class':  'com.sha.springbootmicroservice1product.SpringBootMicroservice1ProductApplication'
 		)
 	}
 }
