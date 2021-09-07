@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("classpath:application-${spring.profiles.active:prod}.properties")
+@PropertySource("classpath:application-prod.properties")
 public class SpringBootMicroservice1ProductApplication {
 
 	public static void main(String[] args) {
